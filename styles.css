@@ -1,11 +1,11 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Variables CSS - Colores exactos del diseño Figma */
+
 :root {
     --background: rgba(255, 255, 255, 1);
     --select: rgba(236, 238, 241, 1);
@@ -15,7 +15,7 @@
     --page-background: #EDEDED;
 }
 
-/* Body y configuración base */
+
 body {
     font-family: 'Inter', -apple-system, Roboto, Helvetica, sans-serif;
     margin: 0;
@@ -24,7 +24,7 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor principal - Dimensiones exactas del Figma */
+
 .login-container {
     display: flex;
     width: 100vw;
@@ -35,7 +35,6 @@ body {
     background: var(--page-background);
 }
 
-/* Card principal - Medidas exactas */
 .login-card {
     width: 1200px;
     height: 800px;
@@ -47,7 +46,7 @@ body {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
-/* Panel izquierdo - Imagen */
+
 .image-panel {
     width: 744px;
     height: 800px;
@@ -63,7 +62,6 @@ body {
     display: block;
 }
 
-/* Panel derecho - Formulario */
 .form-panel {
     display: flex;
     width: 456px;
@@ -73,7 +71,6 @@ body {
     position: relative;
 }
 
-/* Contenido principal del formulario */
 .main-content {
     display: flex;
     width: 360px;
@@ -85,7 +82,6 @@ body {
     top: 72px;
 }
 
-/* Sección Logo */
 .logo-section {
     display: flex;
     padding-bottom: 80px;
@@ -102,7 +98,6 @@ body {
     position: relative;
 }
 
-/* Sección Título */
 .title-section {
     display: flex;
     padding-bottom: 32px;
@@ -124,7 +119,6 @@ body {
     position: relative;
 }
 
-/* Sección Email */
 .email-section {
     display: flex;
     padding-bottom: 24px;
@@ -135,7 +129,6 @@ body {
     position: relative;
 }
 
-/* Sección Password */
 .password-section {
     display: flex;
     padding-bottom: 16px;
@@ -146,7 +139,6 @@ body {
     position: relative;
 }
 
-/* Campos de entrada */
 .input-field {
     display: flex;
     width: 360px;
@@ -185,7 +177,6 @@ body {
     color: var(--text-main);
 }
 
-/* Botón toggle password */
 .password-toggle {
     background: none;
     border: none;
@@ -204,7 +195,6 @@ body {
     color: var(--primary);
 }
 
-/* Sección Forgot Password */
 .forgot-password-section {
     display: flex;
     padding-bottom: 32px;
@@ -231,7 +221,6 @@ body {
     text-decoration: underline;
 }
 
-/* Sección Sign In */
 .signin-section {
     display: flex;
     padding-bottom: 32px;
@@ -272,7 +261,6 @@ body {
     transform: translateY(1px);
 }
 
-/* Sección Create Account */
 .create-account-section {
     display: flex;
     justify-content: center;
@@ -308,9 +296,7 @@ body {
     text-decoration: underline;
 }
 
-/* RESPONSIVE DESIGN */
 
-/* Pantallas grandes pero no tanto como el diseño original */
 @media (max-width: 1600px) {
     .login-container {
         padding: 80px 200px;
@@ -323,7 +309,6 @@ body {
     }
 }
 
-/* Tablets */
 @media (max-width: 1200px) {
     .login-container {
         padding: 40px 20px;
@@ -363,7 +348,6 @@ body {
     }
 }
 
-/* Tablets pequeñas y móviles grandes */
 @media (max-width: 900px) {
     .login-card {
         flex-direction: column;
@@ -398,7 +382,6 @@ body {
     }
 }
 
-/* Móviles */
 @media (max-width: 480px) {
     .login-container {
         padding: 20px 15px;
@@ -457,7 +440,6 @@ body {
     }
 }
 
-/* Muy pequeñas */
 @media (max-width: 320px) {
     .login-container {
         padding: 15px 10px;
